@@ -14,8 +14,8 @@ Where:
         MEDIUM is the baseline (zero offset)
 
     - degradation_penalty: increases once tires exceed their "cliff" age
-        penalty = effective_rate * max(0, tire_age - cliff)
-        effective_rate = base_rate * (1 + temp_coeff * (track_temp - temp_ref))
+        penalty = base_rate * temp_scale * max(0, tire_age - cliff)
+        temp_scale = 1 + temp_coeff[compound] * (track_temp - temp_ref)
 
     - tire_age starts at 0 when fitted, increments by 1 BEFORE each lap
       so the first lap on a set of tires is driven at age 1
@@ -30,18 +30,18 @@ Temperature effect:
 # ---- Compound speed offsets (seconds per lap relative to MEDIUM) ----
 # SOFT tires are inherently faster per lap, HARD tires are slower
 COMPOUND_BASE = {
-    "SOFT": -0.9665103286569976,
+    "SOFT": -1.0,
     "MEDIUM": 0.0,
-    "HARD": 0.755284994643082,
+    "HARD": 0.8,
 }
 
 
 # ---- Degradation rate (seconds per lap once past the cliff) ----
 # SOFT degrades fastest, HARD degrades slowest
 DEGRADATION_RATE = {
-    "SOFT": 1.6213600572975244,
-    "MEDIUM": 0.813268608577364,
-    "HARD": 0.345981233247675,
+    "SOFT": 1.475,
+    "MEDIUM": 0.75,
+    "HARD": 0.375,
 }
 
 
@@ -50,20 +50,20 @@ DEGRADATION_RATE = {
 CLIFF = {
     "SOFT": 10,
     "MEDIUM": 20,
-    "HARD": 29,
+    "HARD": 30,
 }
 
 
 # ---- Temperature sensitivity coefficients (per compound) ----
 # Controls how much track temperature scales the degradation rate
 TEMP_COEFFICIENT = {
-    "SOFT": 0.025806274187704845,
-    "MEDIUM": 0.02777171692356944,
-    "HARD": 0.02401965544225936,
+    "SOFT": 0.025,
+    "MEDIUM": 0.025,
+    "HARD": 0.026,
 }
 
 # Reference temperature — degradation rates are "as-is" at this temperature
-TEMP_REFERENCE = 27.96640138772966
+TEMP_REFERENCE = 24.0
 
 
 def get_effective_degradation_rate(compound, track_temp):

@@ -1,0 +1,121 @@
+﻿[0;34mΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù[0m
+[0;34mΓòæ          Box Box Box - Test Runner                    Γòæ[0m
+[0;34mΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥[0m
+
+Solution Command: [1;33mpython solution/race_simulator.py[0m
+Test Cases Found: [1;33m100[0m
+
+[0;34mRunning tests...[0m
+
+[0;32mΓ£ô[0m TEST_001
+[0;32mΓ£ô[0m TEST_002
+[0;32mΓ£ô[0m TEST_003
+[0;32mΓ£ô[0m TEST_004
+[0;32mΓ£ô[0m TEST_005
+[0;31mΓ£ù[0m TEST_006 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_007
+[0;32mΓ£ô[0m TEST_008
+[0;32mΓ£ô[0m TEST_009
+[0;32mΓ£ô[0m TEST_010
+[0;32mΓ£ô[0m TEST_011
+[0;31mΓ£ù[0m TEST_012 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_013
+[0;32mΓ£ô[0m TEST_014
+[0;32mΓ£ô[0m TEST_015
+[0;32mΓ£ô[0m TEST_016
+[0;32mΓ£ô[0m TEST_017
+[0;32mΓ£ô[0m TEST_018
+[0;32mΓ£ô[0m TEST_019
+[0;31mΓ£ù[0m TEST_020 - Incorrect prediction
+[0;31mΓ£ù[0m TEST_021 - Incorrect prediction
+[0;31mΓ£ù[0m TEST_022 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_023
+[0;31mΓ£ù[0m TEST_024 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_025
+[0;32mΓ£ô[0m TEST_026
+[0;32mΓ£ô[0m TEST_027
+[0;32mΓ£ô[0m TEST_028
+[0;31mΓ£ù[0m TEST_029 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_030
+[0;32mΓ£ô[0m TEST_031
+[0;32mΓ£ô[0m TEST_032
+[0;31mΓ£ù[0m TEST_033 - Incorrect prediction
+[0;31mΓ£ù[0m TEST_034 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_035
+[0;32mΓ£ô[0m TEST_036
+[0;31mΓ£ù[0m TEST_037 - Incorrect prediction
+[0;31mΓ£ù[0m TEST_038 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_039
+[0;31mΓ£ù[0m TEST_040 - Incorrect prediction
+[0;31mΓ£ù[0m TEST_041 - Incorrect prediction
+[0;31mΓ£ù[0m TEST_042 - Incorrect prediction
+[0;31mΓ£ù[0m TEST_043 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_044
+[0;32mΓ£ô[0m TEST_045
+[0;32mΓ£ô[0m TEST_046
+[0;31mΓ£ù[0m TEST_047 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_048
+[0;31mΓ£ù[0m TEST_049 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_050
+[0;32mΓ£ô[0m TEST_051
+[0;32mΓ£ô[0m TEST_052
+[0;32mΓ£ô[0m TEST_053
+[0;32mΓ£ô[0m TEST_054
+[0;31mΓ£ù[0m TEST_055 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_056
+[0;32mΓ£ô[0m TEST_057
+[0;31mΓ£ù[0m TEST_058 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_059
+[0;32mΓ£ô[0m TEST_060
+[0;32mΓ£ô[0m TEST_061
+[0;31mΓ£ù[0m TEST_062 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_063
+[0;31mΓ£ù[0m TEST_064 - Incorrect prediction
+[0;31mΓ£ù[0m TEST_065 - Incorrect prediction
+[0;31mΓ£ù[0m TEST_066 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_067
+[0;32mΓ£ô[0m TEST_068
+[0;32mΓ£ô[0m TEST_069
+[0;32mΓ£ô[0m TEST_070
+[0;32mΓ£ô[0m TEST_071
+[0;31mΓ£ù[0m TEST_072 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_073
+[0;31mΓ£ù[0m TEST_074 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_075
+[0;32mΓ£ô[0m TEST_076
+[0;31mΓ£ù[0m TEST_077 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_078
+[0;32mΓ£ô[0m TEST_079
+[0;31mΓ£ù[0m TEST_080 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_081
+[0;31mΓ£ù[0m TEST_082 - Incorrect prediction
+[0;31mΓ£ù[0m TEST_083 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_084
+[0;32mΓ£ô[0m TEST_085
+[0;32mΓ£ô[0m TEST_086
+[0;32mΓ£ô[0m TEST_087
+[0;32mΓ£ô[0m TEST_088
+[0;31mΓ£ù[0m TEST_089 - Incorrect prediction
+[0;31mΓ£ù[0m TEST_090 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_091
+[0;32mΓ£ô[0m TEST_092
+[0;31mΓ£ù[0m TEST_093 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_094
+[0;31mΓ£ù[0m TEST_095 - Incorrect prediction
+[0;32mΓ£ô[0m TEST_096
+[0;32mΓ£ô[0m TEST_097
+[0;32mΓ£ô[0m TEST_098
+[0;32mΓ£ô[0m TEST_099
+[0;31mΓ£ù[0m TEST_100 - Incorrect prediction
+
+[0;34mΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù[0m
+[0;34mΓòæ                    Results                             Γòæ[0m
+[0;34mΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥[0m
+
+Total Tests:    [1;33m100[0m
+Passed:         [0;32m66[0m
+Failed:         [0;31m34[0m
+
+Pass Rate:      [0;32m%[0m
+
+[1;33mKeep improving! Check failed test cases.[0m
